@@ -195,7 +195,7 @@ namespace MongoDB.Bson.IO
                             if (guidRepresentation != Settings.GuidRepresentation)
                             {
                                 var message = string.Format(
-                                    "The GuidRepresentation for the writer is {0}, which requires the the guidRepresentation argument to also be {0}, not {1}.",
+                                    "The GuidRepresentation for the writer is {0}, which requires the guidRepresentation argument to also be {0}, not {1}.",
                                     Settings.GuidRepresentation, guidRepresentation);
                                 throw new BsonSerializationException(message);
                             }
