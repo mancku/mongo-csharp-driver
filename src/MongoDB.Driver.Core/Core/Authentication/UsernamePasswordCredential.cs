@@ -83,7 +83,7 @@ namespace MongoDB.Driver.Core.Authentication
         }
 
         /// <summary>
-        /// Gets the the SASLprepped password.
+        /// Gets the SASLprepped password.
         /// May create a cleartext copy of the password in managed memory the first time it is accessed.
         /// Use only as needed e.g. for SCRAM-SHA-256.
         /// </summary> 
